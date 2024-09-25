@@ -1,0 +1,36 @@
+.inp {
+  height: 42px;
+  border-radius: 5px;
+}
+.btnn {
+  background: linear-gradient(
+    135deg,
+    #00c6ff,
+    #0072ff
+  ); /* Messenger gradient */
+  margin-bottom: 6px;
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 15px; /* Font size */
+  transition: background 0.3s; /* Smooth transition */
+}
+
+.btnn {
+  background: linear-gradient(
+    135deg,
+    #0072ff,
+    #00c6ff
+  ); /* Inverted gradient on hover */
+}
+
+li {
+  font-size: 22px;
+}
+
+.btn {
+  padding: 0px 8px 1px 8px;
+  font-size: 0.9rem;
+}
