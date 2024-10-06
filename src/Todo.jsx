@@ -18,7 +18,7 @@ export default function Todo(){
     }
 
     let deleteTodo = (id) => {
-       setTodos (todos.filter((todo) => todo.id != id))
+       setTodos ((prevTodos) =>  prevTodos.filter((todo) => todo.id != id))
     }
 
 
@@ -26,7 +26,7 @@ export default function Todo(){
         <>
             <input className="inp" value={newTodo}
             onChange={updateTodoValue}
-            placeholder="add a task"></input> 
+            placeholder="add a task" required></input> 
             &nbsp; &nbsp;
             <button className="btnn" onClick={addNewTask}>Add Task</button>
             

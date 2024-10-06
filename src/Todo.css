@@ -1,6 +1,7 @@
 .inp {
   height: 42px;
   border-radius: 5px;
+  background: linear-gradient(135deg, #b9d6fa, #d8e9ed);
 }
 .btnn {
   background: linear-gradient(
@@ -33,4 +34,7 @@ li {
 .btn {
   padding: 0px 8px 1px 8px;
   font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
 }
